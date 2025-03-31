@@ -19,6 +19,8 @@ body {
     width: 50%;
     margin-top: 10px;
     border-radius: 20px;
+    position: fixed;
+    top: 0;
 }
 
 .navbar ul {

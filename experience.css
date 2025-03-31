@@ -17,12 +17,12 @@ body {
     text-align: center;
     width: 100%;
     width: 50%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
     margin-top: 10px;
     border-radius: 20px;
-    position: fixed;
-    top: 0;
-    position: fixed;
-    top: 0;
+    transition: top 0.3s ease-in-out;
 }
 
 .navbar ul {
@@ -42,7 +42,7 @@ body {
     color: #fff;
     text-decoration: none;
     padding: 10px 15px;
-    
+    transform: scale(0, 1);
 }
 
 .prem {
@@ -88,4 +88,18 @@ button {
     height: 300px;
     object-fit: cover;
     margin-left: 50px;
+}
+
+i {
+    margin: 5px;
+    align-items: left;
+    align-self: left;
+    justify-content: left;
+    padding: 5px;
+}
+
+html, body {
+    height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
 }
