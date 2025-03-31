@@ -1,0 +1,96 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    
+}
+
+.prem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+    flex-grow: 1;
+    font-family: monospace;
+}
+
+.prem-content {
+    max-width: 600px;
+}
+
+.prem-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.prem-content p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #0f0;
+    color: #000;
+    padding: 15px 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #0f0;
+    
+}
+
+.button-btn {
+    text-decoration: none;
+}
+
+.prem-image img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+button:hover {
+    transform: scale(0, 1);
+}

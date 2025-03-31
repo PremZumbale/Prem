@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="about.css">
+    <style>
+        /* Animation styles */
+        .prem-content, .prem-image img {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+        
+        .prem-image img {
+            animation-delay: 0.5s;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="prem">
+        <div class="prem-content">
+            <h1>Contact</h1>
+            <p><b>If You Have Any Queries Don't Forget To Contact Me</b></p>
+            <h2>Here's How You Can Contact Me:
+                <ul>
+                    <li><b>Email Adress: Premzumble@gmail.com</b></li>
+                    <li><b>Mobile Number: 7498823252</b></li>
+                    <li><b>Adress: Viyogi Nagar, 19 N/A Plot</b></li>
+                    <li><b>City: Shegaon, Pin Code - 444203</b></li>
+                </ul>
+            </h2>
+            <button><a href="https://drive.google.com/uc?export=download&id=1mw3ytHbwQWlBtTDkPvWNy0KwXIp_Etmm" target="_blank" style="color: rgb(71, 68, 68); font-weight: bold; text-decoration: none;">Download Portfolio</a></button>
+        </div>
+        <div class="prem-image">
+            <img src="prem.jpg" alt="Prem Zumble">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+    </section>
+</body>
+</html>
+
